@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vidaloka&display=swap");
+.navbar {
+  background-color: #F1EFE9;
+  color: #70825B;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+}
+
+.navbar-brand {
+  color: #70825B;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.2rem;
+}
+
+.nav-item {
+  color: #70825B;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+}
+
+.logo-header {
+  width: 60px;
+  margin: 20px 5px 20px 10px;
+}
+
+.nav-link {
+  color: #70825B;
+}
+
+a {
+  text-decoration: none;
+  color: #94A384;
+}
+a:hover {
+  color: #466a1f;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Inicio main index*/
+.banner {
+  display: flex;
+  justify-content: center;
+  margin: 300px 0;
+}
+
+.textoprincipal-inicio {
+  font-family: "Vidaloka", serif;
+  text-align: center;
+  font-size: 3rem;
+  width: 50%;
+  color: #70825B;
+}
+
+.salto_linea {
+  display: block;
+  margin-top: 30px;
+}
+
+.contenedorfinal-inicio {
+  background-color: #94A384;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 300px 0;
+}
+
+.textofinal-inicio {
+  font-family: "Vidaloka", serif;
+  text-align: center;
+  font-size: 3rem;
+  width: 50%;
+  color: #FFFFFF;
+}
+
+.botondecontacto-inicio {
+  background-color: #FFFFFF;
+  padding: 15px;
+  margin: 40% 0 0 0;
+  border-color: transparent;
+  border-radius: 10px;
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  font-size: 0.9rem;
+  align-items: center;
+  box-shadow: 0 0px 0px 0 rgba(55, 97, 23, 0.363), 0 0px 20px 0 rgba(55, 97, 23, 0.19);
+}
+
+.botondecontacto-inicio:hover {
+  transform: scale(1.2);
+}
+
+/*Fin main index*/
+/*Inicio titulos de secciones*/
+.titulo-de-seccion {
+  display: block;
+  color: #70825B;
+  font-family: "Vidaloka", serif;
+  font-size: 3rem;
+  justify-content: center;
+  text-align: center;
+  margin: 60px 0;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+/*Fin titulos de secciones*/
+/*Inicio main portafolio*/
+.imas_portafolio {
+  width: 100%;
+}
+
+/*Fin main portafolio*/
+/*Inicio main servicios*/
+.contenedor-verde, .contenedor-blanco, .contenedor-beige {
+  background-color: #70825B;
+  justify-content: center;
+  text-align: center;
+}
+
+.contenedor-beige {
+  background-color: #DFD8C6;
+}
+
+.contenedor-blanco {
+  background-color: #FFFFFF;
+}
+
+.col- {
+  padding: 0;
+}
+
+.titulo-b {
+  font-family: "Vidaloka", serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  justify-content: center;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 30% 0;
+}
+
+.titulo-d, .titulo-w {
+  font-family: "Vidaloka", serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  justify-content: center;
+  text-align: center;
+  color: #466a1f;
+  margin: 30% 0;
+}
+
+.titulo-w {
+  color: #70825B;
+}
+
+/*Fin main servicios*/
+/*Inicio main sobre mi*/
+.sobremi-texto {
+  padding: 18% 5% 18% 5%;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  letter-spacing: 0.02rem;
+  text-align: center;
+  line-height: 1.8rem;
+}
+
+.sobremi-img {
+  width: 70%;
+}
+
+/*Fin main sobre mi*/
+/*Inicio main contacto*/
+.df-contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-form {
+  width: 80vw;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  letter-spacing: 0.03rem;
+  line-height: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenido_del_form {
+  width: 80%;
+  align-items: center;
+  text-align: left;
+}
+
+.separacion_items {
+  margin: 30px 0;
+}
+
+.input_form {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  margin: 12px 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  padding: 10px;
+  outline: none;
+}
+
+textarea {
+  display: block;
+  resize: none;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  margin: 12px 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  padding: 10px;
+}
+
+.boton-enviar-form {
+  align-items: center;
+  text-align: center;
+}
+
+.boton_form {
+  background-color: #70825B;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding: 15px;
+  margin: 30px 0;
+  border-color: transparent;
+  border-radius: 10px;
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  font-size: 0.9rem;
+  box-shadow: 0 0px 0px 0 rgba(55, 97, 23, 0.363), 0 0px 20px 0 rgba(55, 97, 23, 0.19);
+}
+
+/*Fin main contacto*/
+/*Inicio footer*/
+.bg-footer {
+  background-color: #F1EFE9;
+  width: 100%;
+  padding: 8%;
+}
+
+.logo-footer {
+  width: 122px;
+  height: 120px;
+}
+
+.h3,
+h3 {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.contact-footer {
+  width: 38%;
+  color: #94A384;
+  font-family: "Lato", sans-serif;
+  font-size: 0.8rem;
+}
+
+.sobremi-footer {
+  color: #94A384;
+  font-family: "Lato", sans-serif;
+  font-size: 0.8rem;
+  width: 50%;
+}
+
+.margin_text_footer {
+  margin-top: 10%;
+}
+
+.redes a i {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0 10% 0 0;
+}
+.redes a i:hover {
+  transform: scale(1.2);
+}
+.redes p {
+  color: #94A384;
+  padding: 10% 0;
+  font-family: "Lato", sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.25rem;
+}
+
+/*MEDIA QUERYS*/
+/*Media Querys MENU*/
+@media (max-width: 400px) {
+  .logo-header {
+    width: 38px;
+  }
+}
+@media (max-width: 400px) {
+  .navbar-brand {
+    font-size: 0.9rem;
+  }
+}
+/*FIN Media Querys MENU*/
+/*Media Querys INDEX*/
+@media (max-width: 400px) {
+  .textoprincipal-inicio, .textofinal-inicio {
+    font-size: 2rem;
+  }
+}
+/* FIN Media Querys INDEX*/
+/*Media Querys TITULOS SECCIONES*/
+@media (max-width: 400px) {
+  .titulo-h1 {
+    font-size: 2rem;
+  }
+}
+/* FIN Media Querys TITULOS SECCIONES*/
+/*Media Querys SOBRE MI*/
+@media (max-width: 991px) {
+  .sobremi-texto {
+    padding: 0 5% 18% 0%;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 767px) {
+  .sobremi-texto {
+    padding: 10% 6% 18% 6%;
+    font-size: 1rem;
+  }
+}
+/* FIN Media Querys SOBRE MI*/
+
+/*# sourceMappingURL=main.css.map */
